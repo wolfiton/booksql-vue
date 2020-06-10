@@ -91,13 +91,13 @@ export default {
           mutation: addBook,
           // Parameters
           variables: {
-            $title: this.title,
-            $image: this.image,
-            $author: this.author,
-            $description: this.description,
-            $link: this.link,
-            $featured: this.featured,
-            $categoryId: this.categoryId,
+            title: this.title,
+            image: this.image,
+            author: this.author,
+            description: this.description,
+            link: this.link,
+            featured: this.featured,
+            categoryId: this.categoryId,
           },
         })
         .then((data) => {
